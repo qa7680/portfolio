@@ -1,0 +1,17 @@
+.homeContainerMain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.homeContainer{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: none;
+    justify-content: center;
+    padding-left: 5%;
+}
+.homeH1{
+    padding-bottom: 25%;
+    margin: 0;
+}

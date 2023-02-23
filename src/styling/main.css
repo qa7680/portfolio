@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: #202324;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color:rgba(93, 101, 105, 0.28);
+}
+body, #root{
+    min-height: 100vh;
+    margin: 0;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: Montserrat;
+    background-color: rgb(13, 12, 12);
+    position: relative;
+    color: white;
+}
+.container{
+    padding: 0rem 8rem;
+    height: 100%;
+}

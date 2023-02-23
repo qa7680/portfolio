@@ -1,0 +1,9 @@
+.projectsContainer{
+    height: 100vh;
+    padding-top: 5rem;
+    padding-left: 5%;
+    color: rgb(192, 187, 179);
+}
+.projectsHeader{
+    font-size: 4rem;
+}
