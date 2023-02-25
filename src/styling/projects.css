@@ -7,3 +7,76 @@
 .projectsHeader{
     font-size: 4rem;
 }
+.hLine{
+    border-color: inherit;
+    opacity: 0.4;
+    margin-bottom: 1rem;
+}
+.projectOne{
+    padding: 2rem 0;
+    font-size: larger;
+}
+.projectImg{
+    width: 45%;
+    height: 400px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-top: 1rem;
+    border-radius: 8px;
+    box-shadow: -3px 0px 14px 1px rgba(0,0,0,0.78);
+}
+.projectInfo{
+    display: flex;
+    gap: 5%;
+}
+.projectSummary h3{
+    font-size: 1.8rem;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.projectStack h3{
+    padding-top: 2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: white;
+}
+.stackList{
+    padding: 0;
+    margin: 0;
+    font-size: 1.4rem;
+}
+.previewCode{
+    margin-top: 3rem;
+    display: flex;
+    gap: 4rem;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 2rem;
+}
+.previewRepo{
+    text-decoration: none;
+    color: inherit;
+}
+.previewRepo:hover{
+    text-decoration: underline;
+}
+.previewImg{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+.hLine.two{
+    margin-top: 2rem;
+}
+.nodeBook{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.projectImg.Twitch{
+    object-position: 0% 50%;
+}

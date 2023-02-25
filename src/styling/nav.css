@@ -14,6 +14,7 @@
     transition: 0.5s ease-in;
     transition: 0.5s ease-out;
     background-color: rgb(0,0,0);
+    z-index: 1;
 }
 .NavMain{
     display: flex;
@@ -45,4 +46,13 @@
 .link:hover{
     border-bottom: 1.5px solid white;
     transition: 0.5s ease-out;
+}
+.viewMore{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+.previewRepo.viewMore{
+    font-size: 2.3rem;
+    font-weight: bold;
 }
