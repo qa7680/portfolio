@@ -1,0 +1,22 @@
+.footer{
+    padding-left: 5%;
+    height: 100%;
+    padding-bottom: 3rem;
+}
+.slideshowHeader{
+    margin-top: 4rem;
+    font-weight: 500;
+}
+.imagesRandom{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.randomImage{
+    width: 90%;
+    margin: 1rem;
+    margin-left: 0;
+    border-radius: 8px;
+}
+.bottomNote{
+    font-size: larger;
+}

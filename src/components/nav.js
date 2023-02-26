@@ -57,25 +57,30 @@ const Navbar = () => {
             <div className= {navbar ? 'fixedNav active' : 'fixedNav'}>
                 <div className= {navbar ? 'NavMain active' : 'NavMain'}>
                     <p>Qassem Ali</p>
-                    <div className="navLinks">
-                        {
-                            portfolio ?
-                            <a onClick={onPortClick} href="#projects" className="linkSelected">Portfolio</a>
-                            :
-                            <a onClick={onPortClick} href="#" className="link">Portfolio</a>
-                        }
-                        {
-                            about ?
-                            <a onClick={onAboutClick} href="#" className="linkSelected">About</a>
-                            :
-                            <a onClick={onAboutClick} href="#" className="link">About</a>
-                        }
-                        {
-                            contact ?
-                            <a onClick={onContactClick} href="#" className="linkSelected">Contact</a>
-                            :
-                            <a onClick={onContactClick} href="#" className="link">Contact</a>
-                        }                                                                    
+                    <div style={{display: 'flex', alignItems: 'center', gap: '4rem'}}>
+                        <div className="navLinks">
+                            {
+                                portfolio ?
+                                <a onClick={onPortClick} href="#projects" className="linkSelected">Portfolio</a>
+                                :
+                                <a onClick={onPortClick} href="#" className="link">Portfolio</a>
+                            }
+                            {
+                                about ?
+                                <a onClick={onAboutClick} href="#about" className="linkSelected">About</a>
+                                :
+                                <a onClick={onAboutClick} href="#" className="link">About</a>
+                            }
+                            {
+                                contact ?
+                                <a onClick={onContactClick} href="#contact" className="linkSelected">Contact</a>
+                                :
+                                <a onClick={onContactClick} href="#" className="link">Contact</a>
+                            }
+                        </div>
+                        <a href="https://github.com/qa7680" target="_blank" className="githubIcon">
+                                <img src={require('../images/github.png')} />
+                        </a>
                     </div>
                 </div>
             </div>

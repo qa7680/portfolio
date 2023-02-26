@@ -1,0 +1,31 @@
+.about{
+    padding-bottom: 2rem;
+    padding-left: 5%;
+    height: 100%;
+    color: rgb(192, 187, 179);
+}
+.about h1{
+    font-size: 4rem;
+    margin: 0;
+    padding-top: 5rem;
+}
+.aboutSection{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    display: flex;
+    padding-top: 2rem;
+}
+.techStack{
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.stackList{
+    list-style-type: none;
+}
+.programmingDatabase{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}

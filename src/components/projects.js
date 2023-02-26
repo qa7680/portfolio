@@ -10,7 +10,7 @@ const Projects = () => {
                 <h2 className="nodeBook">
                     Nodebook
                 </h2>
-                <p style={{padding: 0, margin: 0}}>
+                <p style={{padding: 0, margin: 0, maxWidth: '50%'}}>
                     Full Stack Social Media App.
                 </p>
                 <div className="projectInfo">
@@ -45,7 +45,7 @@ const Projects = () => {
                 <h2 className="nodeBook">
                     Shopping Cart / Shoe Store
                 </h2>
-                <p style={{padding: 0, margin: 0}}>
+                <p style={{padding: 0, margin: 0, maxWidth: '50%'}}>
                     Fully responsive React e-commerce website.
                 </p>
                 <div className="projectInfo">
@@ -82,7 +82,7 @@ const Projects = () => {
                 <h2 className="nodeBook">
                     Light Twitch
                 </h2>
-                <p style={{padding: 0, margin: 0}}>
+                <p style={{padding: 0, margin: 0, maxWidth: '50%'}}>
                     Twitch clone built from scratch using React and the Twitch API.
                 </p>
                 <div className="projectInfo">
@@ -121,7 +121,7 @@ const Projects = () => {
                 <h2 className="nodeBook">
                     Where's Waldo?
                 </h2>
-                <p style={{padding: 0, margin: 0}}>
+                <p style={{padding: 0, margin: 0, maxWidth: '50%'}}>
                     Photo tagging app/game using React and Firebase.
                 </p>
                 <div className="projectInfo">
@@ -158,7 +158,7 @@ const Projects = () => {
                 <h2 className="nodeBook">
                     Weather App
                 </h2>
-                <p style={{padding: 0, margin: 0}}>
+                <p style={{padding: 0, margin: 0, maxWidth: '50%'}}>
                     Weather web app using the openweathermap and unsplash APIs.
                 </p>
                 <div className="projectInfo">
@@ -168,7 +168,7 @@ const Projects = () => {
                             <h3>Summary / Project Goals</h3>
                             <p>A weather web app created using html, css, Vanilla JS and DOM manipulation. Users can search, with the openweathermap api,
                                 the weather of any city using the "city,country" format and switch between celsius and fahrenheit units. Users can also
-                                change the background image with the help of the unsplah api. The main goal of this project was to create an app
+                                change the background image with the help of the unsplash api. The main goal of this project was to create an app
                                 using APIs with the fetch() method.
 
                             </p>
@@ -193,10 +193,9 @@ const Projects = () => {
             <hr className="hLine two"/>
             <div className="projectOne">
                 <h1 className="viewMore" style={{fontSize: '2rem'}}>
-                    <a href="https://github.com/qa7680" target="_blank" className="previewRepo">View More Projects</a>
+                    <a href="https://github.com/qa7680" target="_blank" className="previewRepo">View More Projects/Github</a>
                     <img className="linkIcon" src={require('../images/icon3636.png')}/>
                 </h1>
-                <hr className="hLine two view"/>
             </div>
         </div>
     )

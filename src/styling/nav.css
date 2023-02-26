@@ -50,9 +50,12 @@
 .viewMore{
     display: flex;
     gap: 1rem;
-    padding-bottom: 2rem;
 }
 .previewRepo.viewMore{
     font-size: 2.3rem;
     font-weight: bold;
+}
+.githubIcon{
+    margin: 0;
+    padding: 0;
 }

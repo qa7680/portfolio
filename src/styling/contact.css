@@ -1,0 +1,22 @@
+.contact{
+    padding-left: 5%;
+    color: rgb(192, 187, 179);
+    font-size: 2rem;
+    padding-top: 2rem;
+    height: 100%;
+}
+.contact h1{
+    padding: 0;
+    padding-top: 1rem;
+}
+.contact a{
+    text-decoration: none;
+    color: inherit;
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+.contactMe{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
