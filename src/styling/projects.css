@@ -80,3 +80,39 @@
 .projectImg.Twitch{
     object-position: 0% 50%;
 }
+
+@media screen and (min-width: 1000px) and (max-width: 1370px){
+    .projectOne{
+        font-size: medium;
+    }
+    .nodeBook{
+        font-size: 2rem;
+    }
+   .projectSummary h3{
+    font-size: 1.6rem;
+   }
+   .projectSummary p{
+    font-size: 1.1rem;
+   }
+   .projectStack h3{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    font-weight: 500;
+   }
+   .previewCode{
+        padding-bottom: 0.5rem;
+        margin-top: 1.5rem;
+   }
+   .stackList{
+    font-size: 1.2rem;
+   }
+   .projectOne p{
+    font-size: 1.1rem;
+   }
+   .projectsHeader{
+    font-size: 2.5rem;
+   }
+   .projectImg.weather{
+    object-position: 0% 50%;
+   }
+}

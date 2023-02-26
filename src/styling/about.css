@@ -29,3 +29,25 @@
     flex-direction: column;
     gap: 1.5rem;
 }
+
+@media screen and (min-width: 1000px) and (max-width: 1370px) {
+    .aboutSection{
+        display: block;
+        padding-top: 1rem;
+    }
+    .about h1{
+        padding-top: 4rem;
+        font-size: 2.5rem;
+    }
+    .techStack{
+        display: flex;
+        margin-top: 3rem;
+        font-size: large;
+        justify-content: start;
+        gap: 4rem;
+    }
+    .programmingDatabase{
+        flex-direction: row;
+        gap: 3rem;
+    }
+}

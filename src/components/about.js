@@ -7,7 +7,7 @@ const About = () => {
             <hr className="hLine two view"/>
             <h1>About</h1>
             <div className="aboutSection">
-                <p>Full stack developer with 3 years of personal experience. I have extensively used React.js and Node.js combined
+                <p>Full stack developer with almost 5 years of personal experience. I have extensively used React.js and Node.js combined
                     with MongoDB to build full stack websites while also understanding the core principles of front-end and back-end
                     development. I have high proficiency in python and have a solid grasp of the NumPy and pandas libraries and I've
                     worked with SQL database systems such as MySQL and MsSQL. I've written advanced SQL queries(ex. JOINs, WITH clause, WHILE loops)

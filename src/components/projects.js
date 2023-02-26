@@ -10,7 +10,7 @@ const Projects = () => {
                 <h2 className="nodeBook">
                     Nodebook
                 </h2>
-                <p style={{padding: 0, margin: 0, maxWidth: '50%'}}>
+                <p style={{padding: 0, margin: 0, maxWidth: '45%'}}>
                     Full Stack Social Media App.
                 </p>
                 <div className="projectInfo">
@@ -45,7 +45,7 @@ const Projects = () => {
                 <h2 className="nodeBook">
                     Shopping Cart / Shoe Store
                 </h2>
-                <p style={{padding: 0, margin: 0, maxWidth: '50%'}}>
+                <p style={{padding: 0, margin: 0, maxWidth: '45%'}}>
                     Fully responsive React e-commerce website.
                 </p>
                 <div className="projectInfo">
@@ -82,7 +82,7 @@ const Projects = () => {
                 <h2 className="nodeBook">
                     Light Twitch
                 </h2>
-                <p style={{padding: 0, margin: 0, maxWidth: '50%'}}>
+                <p style={{padding: 0, margin: 0, maxWidth: '45%'}}>
                     Twitch clone built from scratch using React and the Twitch API.
                 </p>
                 <div className="projectInfo">
@@ -121,7 +121,7 @@ const Projects = () => {
                 <h2 className="nodeBook">
                     Where's Waldo?
                 </h2>
-                <p style={{padding: 0, margin: 0, maxWidth: '50%'}}>
+                <p style={{padding: 0, margin: 0, maxWidth: '45%'}}>
                     Photo tagging app/game using React and Firebase.
                 </p>
                 <div className="projectInfo">
@@ -129,11 +129,11 @@ const Projects = () => {
                     <div className="projectInfoRightSide">
                         <div className="projectSummary">
                             <h3>Summary / Project Goals</h3>
-                            <p>A responsive photo tagging app based on Where's Waldo. Users have to find three culprits and are scored
+                            <p>A fully responsive photo tagging app based on Where's Waldo. Users have to find three culprits and are scored
                                 based on the time it takes for all three to be tagged/found. The app uses React as its front-end 
                                 and stores users and their time using Firebase as the back-end. There is also a ranked leaderboard page 
                                 where users can view their rankings compared to other users. The main goal of this app/game was to use
-                                Firebase as a database/back-end along with React.
+                                a BaaS(backend as a service) such as Firebase along with React.
                             </p>
                         </div>
                         <div className="projectStack">
@@ -158,11 +158,11 @@ const Projects = () => {
                 <h2 className="nodeBook">
                     Weather App
                 </h2>
-                <p style={{padding: 0, margin: 0, maxWidth: '50%'}}>
+                <p style={{padding: 0, margin: 0, maxWidth: '45%'}}>
                     Weather web app using the openweathermap and unsplash APIs.
                 </p>
                 <div className="projectInfo">
-                    <img src={require('../images/weather2.png')} className="projectImg"></img>
+                    <img src={require('../images/weather2.png')} className="projectImg weather"></img>
                     <div className="projectInfoRightSide">
                         <div className="projectSummary">
                             <h3>Summary / Project Goals</h3>

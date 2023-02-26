@@ -20,3 +20,12 @@
     align-items: center;
     gap: 1rem;
 }
+
+@media screen and (min-width: 1000px) and (max-width: 1370px){
+    .contact{
+        font-size: large;
+    }
+    .contactMe a{
+        font-size: 2rem;
+    }
+}
