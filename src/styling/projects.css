@@ -17,7 +17,7 @@
     font-size: larger;
 }
 .projectImg{
-    width: 45%;
+    min-width: 45%;
     height: 400px;
     object-fit: cover;
     object-position: 50% 50%;
