@@ -56,6 +56,7 @@ const About = () => {
                                 <li>Node.js</li>
                                 <li>Express.js</li>
                                 <li>REST APIs</li>
+                                <li>MVC Architecture</li>
                                 <li>Firebase / Heroku / Netlify</li>
                                 <li>Git</li>
                             </ul>
