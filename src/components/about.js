@@ -9,7 +9,7 @@ const About = () => {
             <div className="aboutSection">
                 <p>Full stack engineer with 5 years of coding experience. I have extensively used React.js and Node.js combined
                     with SQL/NoSQL databases to build full stack websites.
-                    I have high proficiency in python and have a solid grasp of the NumPy and pandas libraries and I've
+                    I have high proficiency in python and have a solid grasp of the NumPy and pandas libraries. I've
                     worked with SQL database systems such as MySQL and MsSQL and their advanced queries.
                 </p>
                 <div className="techStack">
