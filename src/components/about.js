@@ -8,13 +8,12 @@ const About = () => {
             <h1>About</h1>
             <div className="aboutSection">
                 <p>Full stack developer with almost 5 years of personal experience. I have extensively used React.js and Node.js combined
-                    with MongoDB to build full stack websites while also understanding the core principles of front-end and back-end
-                    development. I have high proficiency in python and have a solid grasp of the NumPy and pandas libraries and I've
-                    worked with SQL database systems such as MySQL and MsSQL. I've written advanced SQL queries(ex. JOINs, WITH clause, WHILE loops)
-                    and I've used Excel concepts such as functions, VLOOKUP and pivot tables for basic to intermediate data analysis.
+                    with SQL/NoSQL databases to build full stack websites.
+                    I have high proficiency in python and have a solid grasp of the NumPy and pandas libraries and I've
+                    worked with SQL database systems such as MySQL and MsSQL and their advanced queries.
                 </p>
                 <div className="techStack">
-                    <div className="programmingDatabase">
+                    {/* <div className="programmingDatabase"> */}
                         <div className="programmingLanguages">
                             <h3 style={{margin: 0, marginBottom: '0.5rem', color: 'white'}}>Programming</h3>
                             <ul className="stackList">
@@ -37,10 +36,10 @@ const About = () => {
                                 <li>Webpack</li>                                
                             </ul>
                         </div>
-                    </div>
-                    <div className="programmingDatabase">
+                    {/* </div> */}
+                    {/* <div className="programmingDatabase"> */}
                         <div className="databaseLanguages">
-                            <h3 style={{margin: 0, color: 'white', marginBottom: '0.5rem'}}>Database/Data Analysis</h3>
+                            <h3 style={{margin: 0, color: 'white', marginBottom: '0.5rem'}}>Database</h3>
                             <ul className="stackList">
                                 <li>MongoDB</li>
                                 <li>PostgreSQL</li>
@@ -61,7 +60,7 @@ const About = () => {
                                 <li>Git</li>
                             </ul>
                         </div>
-                    </div>
+                    {/* </div> */}
                 </div>
             </div>
         </div>
